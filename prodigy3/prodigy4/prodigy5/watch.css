@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color:rgb(114, 39, 54); */
+    background-image: url(https://images.pexels.com/photos/6398331/pexels-photo-6398331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: skyblue;
+}
+
+#stop {
+    background-color: green;
+}
+
+#stop:hover {
+    background-color: #c82333;
+}
+
+#reset {
+    background-color: rgb(1, 44, 61);
+}
+
+#reset:hover {
+    background-color: #394d5e;
+}
